@@ -1,0 +1,15 @@
+<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Name>DizhiTiantu</Name><AddInID>{b842f405-740b-4d9f-a139-11d39b2344b4}</AddInID><Description>New Addin</Description><Version>0.1</Version><Image /><Author>ChenJL</Author><Company>TQ</Company><Date>07/15/2016</Date><Targets><Target name="Desktop" version="10.2" /></Targets><AddIn language="PYTHON" library="DizhiTiantu_addin.py" namespace="DizhiTiantu_addin"><ArcMap>
+    <Commands>
+        <Button caption="&#25968;&#25454;&#26367;&#25442;" category="DizhiTiantu" class="UpdateLayers" id="UpdateLayers_addin.button" image="" message="" tip=""><Help heading="" /></Button>
+        <Button caption="&#21019;&#24314;&#27880;&#35760;" category="DizhiTiantu" class="CreateAnnotation" id="CreateAnnotation_addin.button" image="" message="" tip=""><Help heading="" /></Button>
+        <Button caption="&#23548;&#20986;&#22270;&#29255;" category="DizhiTiantu" class="ExportMap" id="ExportMap_addin.button" image="" message="" tip=""><Help heading="" /></Button>
+        </Commands>
+    <Extensions>
+        </Extensions>
+    <Toolbars>
+        <Toolbar caption="&#22320;&#36136;&#22635;&#22270;" category="DizhiTiantu" id="DizhiTiantu_addin.toolbar" showInitially="true"><Items><Menu refID="DizhiTiantuMenu_addin.menu" /></Items></Toolbar>
+        </Toolbars>
+    <Menus>
+        <Menu caption="1:50000&#20986;&#22270;" category="DizhiTiantu" id="DizhiTiantuMenu_addin.menu" isRootMenu="false" isShortcutMenu="false" separator="false"><Items><Button refID="UpdateLayers_addin.button" /><Button refID="CreateAnnotation_addin.button" /><Button refID="ExportMap_addin.button" /></Items></Menu>
+        </Menus>
+    </ArcMap></AddIn></ESRI.Configuration>

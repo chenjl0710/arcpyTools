@@ -1,0 +1,15 @@
+<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Name>PointsStatic</Name><AddInID>{13be09e3-040f-4434-a139-82913459b65e}</AddInID><Description>New Addin</Description><Version>0.1</Version><Image /><Author>CJL</Author><Company /><Date>07/24/2016</Date><Targets><Target name="Desktop" version="10.2" /></Targets><AddIn language="PYTHON" library="PointsStatic_addin.py" namespace="PointsStatic_addin"><ArcMap>
+    <Commands>
+        <ComboBox caption="PointLayer" category="PointsStatic" class="PointLayer" id="PointsStatic_addin.combobox" itemSizeString="WWWWWW" message="" rows="4" sizeString="WWWWWW" tip=""><Help heading="" /></ComboBox>
+        <ComboBox caption="AreaLayer" category="PointsStatic" class="AreaLayer" id="AreaLayer_addin.combobox" itemSizeString="WWWWWW" message="" rows="4" sizeString="WWWWWW" tip=""><Help heading="" /></ComboBox>
+        <ComboBox caption="AreaField" category="PointsStatic" class="AreaField" id="PointsStatic_addin.combobox_2" itemSizeString="WWWWWW" message="" rows="4" sizeString="WWWWWW" tip=""><Help heading="" /></ComboBox>
+        <Button caption="PointsStatic" category="PointsStatic" class="PointsStatic" id="PointsStatic_addin.button" image="" message="" tip=""><Help heading="" /></Button>
+        </Commands>
+    <Extensions>
+        </Extensions>
+    <Toolbars>
+        <Toolbar caption="PointsStatic" category="PointsStatic" id="PointsStatic_addin.toolbar" showInitially="true"><Items><ComboBox refID="PointsStatic_addin.combobox" /><ComboBox refID="AreaLayer_addin.combobox" /><ComboBox refID="PointsStatic_addin.combobox_2" /><Button refID="PointsStatic_addin.button" /></Items></Toolbar>
+        </Toolbars>
+    <Menus>
+        </Menus>
+    </ArcMap></AddIn></ESRI.Configuration>

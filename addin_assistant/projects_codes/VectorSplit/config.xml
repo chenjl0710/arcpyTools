@@ -1,0 +1,12 @@
+<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Name>VectorSplit</Name><AddInID>{a868bbf1-ea6e-48f1-8fdf-ecec4fe491a7}</AddInID><Description>&#26681;&#25454;&#36873;&#25321;&#22270;&#23618;&#30340;&#26576;&#20010;&#23383;&#27573;&#23558;&#22270;&#23618;&#36827;&#34892;&#25286;&#20998;&#65292;&#24182;&#20197;&#35813;&#23383;&#27573;&#30340;&#23646;&#24615;&#20316;&#20026;&#36755;&#20986;&#22270;&#23618;&#30340;&#21629;&#21517;&#21517;&#31216;&#12290;</Description><Version>0.1</Version><Image>Images\ElementsSelectAll16.png</Image><Author>ChenJL</Author><Company>TQ</Company><Date>07/10/2016</Date><Targets><Target name="Desktop" version="10.2" /></Targets><AddIn language="PYTHON" library="VectorSplit_addin.py" namespace="VectorSplit_addin"><ArcMap>
+    <Commands>
+        <ComboBox caption="VectorSplit" category="VectorSplit" class="FieldListCB" id="FieldListCB_addin.combobox" itemSizeString="WWWWWW" message="" rows="4" sizeString="WWWWWW" tip=""><Help heading="" /></ComboBox>
+        </Commands>
+    <Extensions>
+        </Extensions>
+    <Toolbars>
+        <Toolbar caption="VectorSplitToolbar" category="VectorSplit" id="VectorSplit_addin.toolbar" showInitially="true"><Items><ComboBox refID="FieldListCB_addin.combobox" /></Items></Toolbar>
+        </Toolbars>
+    <Menus>
+        </Menus>
+    </ArcMap></AddIn></ESRI.Configuration>

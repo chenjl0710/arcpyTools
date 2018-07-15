@@ -1,0 +1,13 @@
+<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Name>KeyBoardEffects</Name><AddInID>{283901ad-0dbb-4eaa-9a6d-aa66a7fae895}</AddInID><Description>KeyBoardEffects</Description><Version>0.1</Version><Image /><Author>Chenjl</Author><Company>TQ</Company><Date>08/08/2016</Date><Targets><Target name="Desktop" version="10.2" /></Targets><AddIn language="PYTHON" library="KeyBoardEffects_addin.py" namespace="KeyBoardEffects_addin"><ArcMap>
+    <Commands>
+        <Button caption="Start Effect" category="KeyBoardEffects" class="Start_Effect" id="Start_Effect_addin.button" image="" message="" tip=""><Help heading="" /></Button>
+        <Button caption="End Effect" category="KeyBoardEffects" class="End_Effect" id="End_Effect_addin.button" image="" message="" tip=""><Help heading="" /></Button>
+        </Commands>
+    <Extensions>
+        </Extensions>
+    <Toolbars>
+        <Toolbar caption="KeyBoardEffects" category="KeyBoardEffects" id="KeyBoardEffects_addin.toolbar" showInitially="true"><Items><Button refID="Start_Effect_addin.button" /><Button refID="End_Effect_addin.button" /></Items></Toolbar>
+        </Toolbars>
+    <Menus>
+        </Menus>
+    </ArcMap></AddIn></ESRI.Configuration>

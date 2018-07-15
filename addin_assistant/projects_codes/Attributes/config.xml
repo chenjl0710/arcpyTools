@@ -1,0 +1,12 @@
+<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Name>ArribbutesTable</Name><AddInID>{72379d6d-e5a0-4218-9f13-3095fde61858}</AddInID><Description>New Addin</Description><Version>0.1</Version><Image /><Author>Chenjl</Author><Company>TQ</Company><Date>08/03/2016</Date><Targets><Target name="Desktop" version="10.2" /></Targets><AddIn language="PYTHON" library="Attributes_addin.py" namespace="Attributes_addin"><ArcMap>
+    <Commands>
+        <ComboBox caption="SelectLayer" category="ArribbutesTable" class="SelectLayer" id="SelectLayer_addin.combobox" itemSizeString="WWWWWW" message="" rows="4" sizeString="WWWWWW" tip=""><Help heading="" /></ComboBox>
+        </Commands>
+    <Extensions>
+        </Extensions>
+    <Toolbars>
+        <Toolbar caption="ArribbutesTable" category="ArribbutesTable" id="ArribbutesTable_addin.toolbar" showInitially="true"><Items><ComboBox refID="SelectLayer_addin.combobox" /></Items></Toolbar>
+        </Toolbars>
+    <Menus>
+        </Menus>
+    </ArcMap></AddIn></ESRI.Configuration>
