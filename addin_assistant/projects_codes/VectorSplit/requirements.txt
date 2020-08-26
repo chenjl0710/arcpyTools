@@ -1,5 +1,5 @@
 beautifulsoup4==4.4.1
-Django==1.9.7
+Django==1.11.29
 email==4.0.2
 future==0.15.2
 GDAL==1.11.3
