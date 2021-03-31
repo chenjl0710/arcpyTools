@@ -5,7 +5,7 @@ future==0.15.2
 GDAL==1.11.3
 google==1.9.1
 httplib2==0.9.2
-lxml==3.6.0
+lxml==4.6.3
 matplotlib==1.1.1
 numpy==1.11.0
 pefile==2016.3.28
