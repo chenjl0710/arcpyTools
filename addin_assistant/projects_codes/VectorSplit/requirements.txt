@@ -7,7 +7,7 @@ google==1.9.1
 httplib2==0.9.2
 lxml==3.6.0
 matplotlib==1.1.1
-numpy==1.11.0
+numpy==1.22.0
 pefile==2016.3.28
 Pillow==3.2.0
 PyInstaller==3.2
